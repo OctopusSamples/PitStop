@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30011.22
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuditlogService", "AuditlogService\AuditlogService.csproj", "{BFA83D86-4B32-47AC-9C28-A0803D553B30}"
 EndProject
@@ -40,6 +40,20 @@ EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WorkshopManagementEventStoreDB", "WorkshopManagementEventStoreDB\WorkshopManagementEventStoreDB.sqlproj", "{A77C3D59-A1E6-4721-BED4-C0075CC0E57F}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WorkshopManagementDB", "WorkshopManagementDB\WorkshopManagementDB.sqlproj", "{4278A6D9-A967-4469-A34C-8C8C2FB332CF}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CustomerManagementDB-DACPAC", "CustomerManagementDB-DACPAC\CustomerManagementDB-DACPAC.sqlproj", "{D4A9F7A7-B225-41C0-9E8F-1D00AA411454}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "InvoiceServiceDB-DACPAC", "InvoiceServiceDB-DACPAC\InvoiceServiceDB-DACPAC.sqlproj", "{5B53B32C-AA80-4052-ACFE-0F95CFEC5770}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C01D339-208A-4260-8901-3E613D4B24B4}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NotificationDB-DACPAC", "NotificationDB-DACPAC\NotificationDB-DACPAC.sqlproj", "{B9502837-2B2F-4EB7-B823-C853452FC0BD}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VehicleManagementDB-DACPAC", "VehicleManagementDB-DACPAC\VehicleManagementDB-DACPAC.sqlproj", "{798DEE45-C8F5-46B3-AB7D-5EB527910816}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WorkshopManagementDB-DACPAC", "WorkshopManagementDB-DACPAC\WorkshopManagementDB-DACPAC.sqlproj", "{D54C757F-DAB2-4EFA-B182-3F0FB3D39251}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WorkshopManagementEventStoreDB-DACPAC", "WorkshopManagementEventStoreDB-DACPAC\WorkshopManagementEventStoreDB-DACPAC.sqlproj", "{08707DF7-99B9-4967-8226-3F885925F3AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +149,42 @@ Global
 		{4278A6D9-A967-4469-A34C-8C8C2FB332CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4278A6D9-A967-4469-A34C-8C8C2FB332CF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4278A6D9-A967-4469-A34C-8C8C2FB332CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D4A9F7A7-B225-41C0-9E8F-1D00AA411454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A9F7A7-B225-41C0-9E8F-1D00AA411454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A9F7A7-B225-41C0-9E8F-1D00AA411454}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D4A9F7A7-B225-41C0-9E8F-1D00AA411454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A9F7A7-B225-41C0-9E8F-1D00AA411454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4A9F7A7-B225-41C0-9E8F-1D00AA411454}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5B53B32C-AA80-4052-ACFE-0F95CFEC5770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B53B32C-AA80-4052-ACFE-0F95CFEC5770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B53B32C-AA80-4052-ACFE-0F95CFEC5770}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5B53B32C-AA80-4052-ACFE-0F95CFEC5770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B53B32C-AA80-4052-ACFE-0F95CFEC5770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B53B32C-AA80-4052-ACFE-0F95CFEC5770}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B9502837-2B2F-4EB7-B823-C853452FC0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9502837-2B2F-4EB7-B823-C853452FC0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9502837-2B2F-4EB7-B823-C853452FC0BD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B9502837-2B2F-4EB7-B823-C853452FC0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9502837-2B2F-4EB7-B823-C853452FC0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9502837-2B2F-4EB7-B823-C853452FC0BD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{798DEE45-C8F5-46B3-AB7D-5EB527910816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798DEE45-C8F5-46B3-AB7D-5EB527910816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798DEE45-C8F5-46B3-AB7D-5EB527910816}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{798DEE45-C8F5-46B3-AB7D-5EB527910816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798DEE45-C8F5-46B3-AB7D-5EB527910816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{798DEE45-C8F5-46B3-AB7D-5EB527910816}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D54C757F-DAB2-4EFA-B182-3F0FB3D39251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54C757F-DAB2-4EFA-B182-3F0FB3D39251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54C757F-DAB2-4EFA-B182-3F0FB3D39251}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D54C757F-DAB2-4EFA-B182-3F0FB3D39251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54C757F-DAB2-4EFA-B182-3F0FB3D39251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54C757F-DAB2-4EFA-B182-3F0FB3D39251}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{08707DF7-99B9-4967-8226-3F885925F3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08707DF7-99B9-4967-8226-3F885925F3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08707DF7-99B9-4967-8226-3F885925F3AA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{08707DF7-99B9-4967-8226-3F885925F3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08707DF7-99B9-4967-8226-3F885925F3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08707DF7-99B9-4967-8226-3F885925F3AA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
